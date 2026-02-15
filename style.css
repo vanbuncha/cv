@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 60%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -47,9 +47,12 @@ table {
 }
 
 body {
-	font: normal normal 400;
-	font-size: 9.5pt;
-	line-height: 1.35em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	/*margin-top: 1em;
@@ -65,8 +68,9 @@ p {
 }
 
 code {
-	font: normal normal;
-	font-size: 90%;
+	font: normal normal 400 90%/1em Monaco,Menlo,monospace,sans-serif;
+	color: #a3be8c;
+	font-size: 60%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #a3be8c;
